@@ -1,0 +1,34 @@
+---
+import Layout from '../layouts/default.astro'
+---
+
+<Layout>
+    <div class="shop">
+        <h1>Shop Sandwich Kits</h1>
+
+        <noscript>
+            <p>
+                JavaScript is required to purchase things from the sndwch web store. To order by Phone, call <a href="tel:12484345508">+1 248-434-5508</a>
+            </p>
+        </noscript>
+        <div class="products">
+            <p>TODO: list products</p>
+            <p>TODO: Show Cart</p>
+        </div>
+    </div>
+</Layout>
+
+<style>
+    .shop {
+	padding: 3rem 5%;
+}
+
+.products {
+	align-items: flex-start;
+	display: grid;
+	gap: 2rem;
+	grid-template-columns: 1fr 260px;
+	position: relative;
+}
+
+</style>
